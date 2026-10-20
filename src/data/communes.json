@@ -1,0 +1,3171 @@
+{
+  "source": "https://geo.api.gouv.fr/departements/66/communes",
+  "retrievedAt": "2026-10-20T17:54:23.542Z",
+  "communes": [
+    {
+      "nom": "L'Albère",
+      "code": "66001",
+      "codesPostaux": [
+        "66480"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.897,
+          42.4762
+        ]
+      }
+    },
+    {
+      "nom": "Alénya",
+      "code": "66002",
+      "codesPostaux": [
+        "66200"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9824,
+          42.6413
+        ]
+      }
+    },
+    {
+      "nom": "Amélie-les-Bains-Palalda",
+      "code": "66003",
+      "codesPostaux": [
+        "66110"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.687,
+          42.4508
+        ]
+      }
+    },
+    {
+      "nom": "Les Angles",
+      "code": "66004",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.049,
+          42.5797
+        ]
+      }
+    },
+    {
+      "nom": "Angoustrine-Villeneuve-des-Escaldes",
+      "code": "66005",
+      "codesPostaux": [
+        "66760"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.9443,
+          42.546
+        ]
+      }
+    },
+    {
+      "nom": "Ansignan",
+      "code": "66006",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5233,
+          42.7646
+        ]
+      }
+    },
+    {
+      "nom": "Arboussols",
+      "code": "66007",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4953,
+          42.6669
+        ]
+      }
+    },
+    {
+      "nom": "Argelès-sur-Mer",
+      "code": "66008",
+      "codesPostaux": [
+        "66700"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.0234,
+          42.53
+        ]
+      }
+    },
+    {
+      "nom": "Arles-sur-Tech",
+      "code": "66009",
+      "codesPostaux": [
+        "66150"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6228,
+          42.4531
+        ]
+      }
+    },
+    {
+      "nom": "Ayguatébia-Talau",
+      "code": "66010",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1962,
+          42.5561
+        ]
+      }
+    },
+    {
+      "nom": "Bages",
+      "code": "66011",
+      "codesPostaux": [
+        "66670"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8893,
+          42.6075
+        ]
+      }
+    },
+    {
+      "nom": "Baho",
+      "code": "66012",
+      "codesPostaux": [
+        "66540"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8229,
+          42.7066
+        ]
+      }
+    },
+    {
+      "nom": "Baillestavy",
+      "code": "66013",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5266,
+          42.5682
+        ]
+      }
+    },
+    {
+      "nom": "Baixas",
+      "code": "66014",
+      "codesPostaux": [
+        "66390"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8079,
+          42.744
+        ]
+      }
+    },
+    {
+      "nom": "Banyuls-dels-Aspres",
+      "code": "66015",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8649,
+          42.5653
+        ]
+      }
+    },
+    {
+      "nom": "Banyuls-sur-Mer",
+      "code": "66016",
+      "codesPostaux": [
+        "66650"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.1014,
+          42.4602
+        ]
+      }
+    },
+    {
+      "nom": "Le Barcarès",
+      "code": "66017",
+      "codesPostaux": [
+        "66420"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.028,
+          42.8118
+        ]
+      }
+    },
+    {
+      "nom": "La Bastide",
+      "code": "66018",
+      "codesPostaux": [
+        "66110"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5752,
+          42.5371
+        ]
+      }
+    },
+    {
+      "nom": "Bélesta",
+      "code": "66019",
+      "codesPostaux": [
+        "66720"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6228,
+          42.7241
+        ]
+      }
+    },
+    {
+      "nom": "Bolquère",
+      "code": "66020",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0614,
+          42.5225
+        ]
+      }
+    },
+    {
+      "nom": "Bompas",
+      "code": "66021",
+      "codesPostaux": [
+        "66430"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9426,
+          42.7271
+        ]
+      }
+    },
+    {
+      "nom": "Boule-d'Amont",
+      "code": "66022",
+      "codesPostaux": [
+        "66130"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5905,
+          42.5884
+        ]
+      }
+    },
+    {
+      "nom": "Bouleternère",
+      "code": "66023",
+      "codesPostaux": [
+        "66130"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5878,
+          42.6435
+        ]
+      }
+    },
+    {
+      "nom": "Le Boulou",
+      "code": "66024",
+      "codesPostaux": [
+        "66160"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8328,
+          42.5267
+        ]
+      }
+    },
+    {
+      "nom": "Bourg-Madame",
+      "code": "66025",
+      "codesPostaux": [
+        "66760"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.9608,
+          42.438
+        ]
+      }
+    },
+    {
+      "nom": "Brouilla",
+      "code": "66026",
+      "codesPostaux": [
+        "66620"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8927,
+          42.5759
+        ]
+      }
+    },
+    {
+      "nom": "La Cabanasse",
+      "code": "66027",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1056,
+          42.501
+        ]
+      }
+    },
+    {
+      "nom": "Cabestany",
+      "code": "66028",
+      "codesPostaux": [
+        "66330"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9507,
+          42.6804
+        ]
+      }
+    },
+    {
+      "nom": "Caixas",
+      "code": "66029",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6633,
+          42.6031
+        ]
+      }
+    },
+    {
+      "nom": "Calce",
+      "code": "66030",
+      "codesPostaux": [
+        "66600"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7545,
+          42.7477
+        ]
+      }
+    },
+    {
+      "nom": "Calmeilles",
+      "code": "66032",
+      "codesPostaux": [
+        "66400"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6735,
+          42.5507
+        ]
+      }
+    },
+    {
+      "nom": "Camélas",
+      "code": "66033",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6911,
+          42.6404
+        ]
+      }
+    },
+    {
+      "nom": "Campôme",
+      "code": "66034",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3826,
+          42.6506
+        ]
+      }
+    },
+    {
+      "nom": "Campoussy",
+      "code": "66035",
+      "codesPostaux": [
+        "66730"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.452,
+          42.6978
+        ]
+      }
+    },
+    {
+      "nom": "Canaveilles",
+      "code": "66036",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2179,
+          42.5348
+        ]
+      }
+    },
+    {
+      "nom": "Canet-en-Roussillon",
+      "code": "66037",
+      "codesPostaux": [
+        "66140"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.002,
+          42.6809
+        ]
+      }
+    },
+    {
+      "nom": "Canohès",
+      "code": "66038",
+      "codesPostaux": [
+        "66680"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8294,
+          42.6514
+        ]
+      }
+    },
+    {
+      "nom": "Caramany",
+      "code": "66039",
+      "codesPostaux": [
+        "66720"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5572,
+          42.7388
+        ]
+      }
+    },
+    {
+      "nom": "Casefabre",
+      "code": "66040",
+      "codesPostaux": [
+        "66130"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6127,
+          42.6156
+        ]
+      }
+    },
+    {
+      "nom": "Cases-de-Pène",
+      "code": "66041",
+      "codesPostaux": [
+        "66600"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7771,
+          42.7931
+        ]
+      }
+    },
+    {
+      "nom": "Cassagnes",
+      "code": "66042",
+      "codesPostaux": [
+        "66720"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.626,
+          42.7415
+        ]
+      }
+    },
+    {
+      "nom": "Casteil",
+      "code": "66043",
+      "codesPostaux": [
+        "66820"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4229,
+          42.5035
+        ]
+      }
+    },
+    {
+      "nom": "Castelnou",
+      "code": "66044",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7046,
+          42.6247
+        ]
+      }
+    },
+    {
+      "nom": "Catllar",
+      "code": "66045",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4186,
+          42.6407
+        ]
+      }
+    },
+    {
+      "nom": "Caudiès-de-Fenouillèdes",
+      "code": "66046",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3781,
+          42.8213
+        ]
+      }
+    },
+    {
+      "nom": "Caudiès-de-Conflent",
+      "code": "66047",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1451,
+          42.5623
+        ]
+      }
+    },
+    {
+      "nom": "Cerbère",
+      "code": "66048",
+      "codesPostaux": [
+        "66290"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.1493,
+          42.4471
+        ]
+      }
+    },
+    {
+      "nom": "Céret",
+      "code": "66049",
+      "codesPostaux": [
+        "66400"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7565,
+          42.473
+        ]
+      }
+    },
+    {
+      "nom": "Claira",
+      "code": "66050",
+      "codesPostaux": [
+        "66530"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9458,
+          42.7626
+        ]
+      }
+    },
+    {
+      "nom": "Clara-Villerach",
+      "code": "66051",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4489,
+          42.5831
+        ]
+      }
+    },
+    {
+      "nom": "Codalet",
+      "code": "66052",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4169,
+          42.6015
+        ]
+      }
+    },
+    {
+      "nom": "Collioure",
+      "code": "66053",
+      "codesPostaux": [
+        "66190"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.0744,
+          42.5087
+        ]
+      }
+    },
+    {
+      "nom": "Conat",
+      "code": "66054",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3426,
+          42.6203
+        ]
+      }
+    },
+    {
+      "nom": "Corbère",
+      "code": "66055",
+      "codesPostaux": [
+        "66130"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6614,
+          42.6515
+        ]
+      }
+    },
+    {
+      "nom": "Corbère-les-Cabanes",
+      "code": "66056",
+      "codesPostaux": [
+        "66130"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6837,
+          42.66
+        ]
+      }
+    },
+    {
+      "nom": "Corneilla-de-Conflent",
+      "code": "66057",
+      "codesPostaux": [
+        "66820"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.382,
+          42.5786
+        ]
+      }
+    },
+    {
+      "nom": "Corneilla-la-Rivière",
+      "code": "66058",
+      "codesPostaux": [
+        "66550"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7247,
+          42.7098
+        ]
+      }
+    },
+    {
+      "nom": "Corneilla-del-Vercol",
+      "code": "66059",
+      "codesPostaux": [
+        "66200"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9512,
+          42.6228
+        ]
+      }
+    },
+    {
+      "nom": "Corsavy",
+      "code": "66060",
+      "codesPostaux": [
+        "66150"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.541,
+          42.483
+        ]
+      }
+    },
+    {
+      "nom": "Coustouges",
+      "code": "66061",
+      "codesPostaux": [
+        "66260"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.632,
+          42.3602
+        ]
+      }
+    },
+    {
+      "nom": "Dorres",
+      "code": "66062",
+      "codesPostaux": [
+        "66760"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.9224,
+          42.5125
+        ]
+      }
+    },
+    {
+      "nom": "Les Cluses",
+      "code": "66063",
+      "codesPostaux": [
+        "66480"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8437,
+          42.4847
+        ]
+      }
+    },
+    {
+      "nom": "Égat",
+      "code": "66064",
+      "codesPostaux": [
+        "66120"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0195,
+          42.5008
+        ]
+      }
+    },
+    {
+      "nom": "Elne",
+      "code": "66065",
+      "codesPostaux": [
+        "66200"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.978,
+          42.6083
+        ]
+      }
+    },
+    {
+      "nom": "Enveitg",
+      "code": "66066",
+      "codesPostaux": [
+        "66760"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.8922,
+          42.491
+        ]
+      }
+    },
+    {
+      "nom": "Err",
+      "code": "66067",
+      "codesPostaux": [
+        "66800"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0678,
+          42.4131
+        ]
+      }
+    },
+    {
+      "nom": "Escaro",
+      "code": "66068",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.319,
+          42.5337
+        ]
+      }
+    },
+    {
+      "nom": "Espira-de-l'Agly",
+      "code": "66069",
+      "codesPostaux": [
+        "66600"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8231,
+          42.7987
+        ]
+      }
+    },
+    {
+      "nom": "Espira-de-Conflent",
+      "code": "66070",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4923,
+          42.6168
+        ]
+      }
+    },
+    {
+      "nom": "Estagel",
+      "code": "66071",
+      "codesPostaux": [
+        "66310"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7077,
+          42.7642
+        ]
+      }
+    },
+    {
+      "nom": "Estavar",
+      "code": "66072",
+      "codesPostaux": [
+        "66800"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0121,
+          42.4764
+        ]
+      }
+    },
+    {
+      "nom": "Estoher",
+      "code": "66073",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4829,
+          42.5695
+        ]
+      }
+    },
+    {
+      "nom": "Eus",
+      "code": "66074",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4478,
+          42.6552
+        ]
+      }
+    },
+    {
+      "nom": "Eyne",
+      "code": "66075",
+      "codesPostaux": [
+        "66800"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.111,
+          42.4544
+        ]
+      }
+    },
+    {
+      "nom": "Feilluns",
+      "code": "66076",
+      "codesPostaux": [
+        "66730"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4877,
+          42.7613
+        ]
+      }
+    },
+    {
+      "nom": "Fenouillet",
+      "code": "66077",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.382,
+          42.7786
+        ]
+      }
+    },
+    {
+      "nom": "Fillols",
+      "code": "66078",
+      "codesPostaux": [
+        "66820"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4257,
+          42.5587
+        ]
+      }
+    },
+    {
+      "nom": "Finestret",
+      "code": "66079",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5194,
+          42.6068
+        ]
+      }
+    },
+    {
+      "nom": "Fontpédrouse",
+      "code": "66080",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.202,
+          42.4718
+        ]
+      }
+    },
+    {
+      "nom": "Fontrabiouse",
+      "code": "66081",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0514,
+          42.6413
+        ]
+      }
+    },
+    {
+      "nom": "Formiguères",
+      "code": "66082",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0629,
+          42.6227
+        ]
+      }
+    },
+    {
+      "nom": "Fosse",
+      "code": "66083",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4335,
+          42.7842
+        ]
+      }
+    },
+    {
+      "nom": "Fourques",
+      "code": "66084",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7759,
+          42.5845
+        ]
+      }
+    },
+    {
+      "nom": "Fuilla",
+      "code": "66085",
+      "codesPostaux": [
+        "66820"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3549,
+          42.5673
+        ]
+      }
+    },
+    {
+      "nom": "Glorianes",
+      "code": "66086",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5528,
+          42.5904
+        ]
+      }
+    },
+    {
+      "nom": "Ille-sur-Têt",
+      "code": "66088",
+      "codesPostaux": [
+        "66130"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6167,
+          42.6746
+        ]
+      }
+    },
+    {
+      "nom": "Joch",
+      "code": "66089",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5244,
+          42.6151
+        ]
+      }
+    },
+    {
+      "nom": "Jujols",
+      "code": "66090",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2823,
+          42.5852
+        ]
+      }
+    },
+    {
+      "nom": "Lamanère",
+      "code": "66091",
+      "codesPostaux": [
+        "66230"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5191,
+          42.3628
+        ]
+      }
+    },
+    {
+      "nom": "Lansac",
+      "code": "66092",
+      "codesPostaux": [
+        "66720"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5651,
+          42.7685
+        ]
+      }
+    },
+    {
+      "nom": "Laroque-des-Albères",
+      "code": "66093",
+      "codesPostaux": [
+        "66740"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9314,
+          42.5179
+        ]
+      }
+    },
+    {
+      "nom": "Latour-Bas-Elne",
+      "code": "66094",
+      "codesPostaux": [
+        "66200"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.0067,
+          42.6041
+        ]
+      }
+    },
+    {
+      "nom": "Latour-de-Carol",
+      "code": "66095",
+      "codesPostaux": [
+        "66760"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.8736,
+          42.4746
+        ]
+      }
+    },
+    {
+      "nom": "Latour-de-France",
+      "code": "66096",
+      "codesPostaux": [
+        "66720"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6498,
+          42.7701
+        ]
+      }
+    },
+    {
+      "nom": "Lesquerde",
+      "code": "66097",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5381,
+          42.7927
+        ]
+      }
+    },
+    {
+      "nom": "La Llagonne",
+      "code": "66098",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.083,
+          42.5401
+        ]
+      }
+    },
+    {
+      "nom": "Llauro",
+      "code": "66099",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7494,
+          42.5458
+        ]
+      }
+    },
+    {
+      "nom": "Llo",
+      "code": "66100",
+      "codesPostaux": [
+        "66800"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0895,
+          42.4358
+        ]
+      }
+    },
+    {
+      "nom": "Llupia",
+      "code": "66101",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7827,
+          42.6275
+        ]
+      }
+    },
+    {
+      "nom": "Mantet",
+      "code": "66102",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2922,
+          42.4555
+        ]
+      }
+    },
+    {
+      "nom": "Marquixanes",
+      "code": "66103",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4848,
+          42.6344
+        ]
+      }
+    },
+    {
+      "nom": "Los Masos",
+      "code": "66104",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4593,
+          42.6145
+        ]
+      }
+    },
+    {
+      "nom": "Matemale",
+      "code": "66105",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1154,
+          42.5788
+        ]
+      }
+    },
+    {
+      "nom": "Maureillas-las-Illas",
+      "code": "66106",
+      "codesPostaux": [
+        "66480"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7999,
+          42.4635
+        ]
+      }
+    },
+    {
+      "nom": "Maury",
+      "code": "66107",
+      "codesPostaux": [
+        "66460"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6194,
+          42.816
+        ]
+      }
+    },
+    {
+      "nom": "Millas",
+      "code": "66108",
+      "codesPostaux": [
+        "66170"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6865,
+          42.6966
+        ]
+      }
+    },
+    {
+      "nom": "Molitg-les-Bains",
+      "code": "66109",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3955,
+          42.6624
+        ]
+      }
+    },
+    {
+      "nom": "Montalba-le-Château",
+      "code": "66111",
+      "codesPostaux": [
+        "66130"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5658,
+          42.699
+        ]
+      }
+    },
+    {
+      "nom": "Montauriol",
+      "code": "66112",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.725,
+          42.5777
+        ]
+      }
+    },
+    {
+      "nom": "Montbolo",
+      "code": "66113",
+      "codesPostaux": [
+        "66110"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6265,
+          42.4924
+        ]
+      }
+    },
+    {
+      "nom": "Montescot",
+      "code": "66114",
+      "codesPostaux": [
+        "66200"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9188,
+          42.6158
+        ]
+      }
+    },
+    {
+      "nom": "Montesquieu-des-Albères",
+      "code": "66115",
+      "codesPostaux": [
+        "66740"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8685,
+          42.5206
+        ]
+      }
+    },
+    {
+      "nom": "Montferrer",
+      "code": "66116",
+      "codesPostaux": [
+        "66150"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.567,
+          42.4415
+        ]
+      }
+    },
+    {
+      "nom": "Mont-Louis",
+      "code": "66117",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1197,
+          42.5098
+        ]
+      }
+    },
+    {
+      "nom": "Montner",
+      "code": "66118",
+      "codesPostaux": [
+        "66720"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6946,
+          42.7439
+        ]
+      }
+    },
+    {
+      "nom": "Mosset",
+      "code": "66119",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2848,
+          42.6719
+        ]
+      }
+    },
+    {
+      "nom": "Nahuja",
+      "code": "66120",
+      "codesPostaux": [
+        "66340"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.9995,
+          42.4243
+        ]
+      }
+    },
+    {
+      "nom": "Néfiach",
+      "code": "66121",
+      "codesPostaux": [
+        "66170"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6566,
+          42.696
+        ]
+      }
+    },
+    {
+      "nom": "Nohèdes",
+      "code": "66122",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2547,
+          42.6256
+        ]
+      }
+    },
+    {
+      "nom": "Nyer",
+      "code": "66123",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2764,
+          42.4957
+        ]
+      }
+    },
+    {
+      "nom": "Font-Romeu-Odeillo-Via",
+      "code": "66124",
+      "codesPostaux": [
+        "66120"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0212,
+          42.5145
+        ]
+      }
+    },
+    {
+      "nom": "Olette",
+      "code": "66125",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2449,
+          42.5938
+        ]
+      }
+    },
+    {
+      "nom": "Oms",
+      "code": "66126",
+      "codesPostaux": [
+        "66400"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7102,
+          42.5319
+        ]
+      }
+    },
+    {
+      "nom": "Opoul-Périllos",
+      "code": "66127",
+      "codesPostaux": [
+        "66600"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8601,
+          42.8817
+        ]
+      }
+    },
+    {
+      "nom": "Oreilla",
+      "code": "66128",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2272,
+          42.5788
+        ]
+      }
+    },
+    {
+      "nom": "Ortaffa",
+      "code": "66129",
+      "codesPostaux": [
+        "66560"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9191,
+          42.5855
+        ]
+      }
+    },
+    {
+      "nom": "Osséja",
+      "code": "66130",
+      "codesPostaux": [
+        "66340"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0006,
+          42.3923
+        ]
+      }
+    },
+    {
+      "nom": "Palau-de-Cerdagne",
+      "code": "66132",
+      "codesPostaux": [
+        "66340"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.9818,
+          42.3864
+        ]
+      }
+    },
+    {
+      "nom": "Palau-del-Vidre",
+      "code": "66133",
+      "codesPostaux": [
+        "66690"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9595,
+          42.5662
+        ]
+      }
+    },
+    {
+      "nom": "Passa",
+      "code": "66134",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.804,
+          42.5674
+        ]
+      }
+    },
+    {
+      "nom": "Perpignan",
+      "code": "66136",
+      "codesPostaux": [
+        "66000",
+        "66100"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9045,
+          42.699
+        ]
+      }
+    },
+    {
+      "nom": "Le Perthus",
+      "code": "66137",
+      "codesPostaux": [
+        "66480"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8639,
+          42.4664
+        ]
+      }
+    },
+    {
+      "nom": "Peyrestortes",
+      "code": "66138",
+      "codesPostaux": [
+        "66600"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8471,
+          42.7484
+        ]
+      }
+    },
+    {
+      "nom": "Pézilla-de-Conflent",
+      "code": "66139",
+      "codesPostaux": [
+        "66730"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4884,
+          42.7356
+        ]
+      }
+    },
+    {
+      "nom": "Pézilla-la-Rivière",
+      "code": "66140",
+      "codesPostaux": [
+        "66370"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.76,
+          42.7089
+        ]
+      }
+    },
+    {
+      "nom": "Pia",
+      "code": "66141",
+      "codesPostaux": [
+        "66380"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9172,
+          42.7506
+        ]
+      }
+    },
+    {
+      "nom": "Planès",
+      "code": "66142",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1444,
+          42.4701
+        ]
+      }
+    },
+    {
+      "nom": "Planèzes",
+      "code": "66143",
+      "codesPostaux": [
+        "66720"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6215,
+          42.7736
+        ]
+      }
+    },
+    {
+      "nom": "Pollestres",
+      "code": "66144",
+      "codesPostaux": [
+        "66450"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8736,
+          42.6373
+        ]
+      }
+    },
+    {
+      "nom": "Ponteilla",
+      "code": "66145",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8288,
+          42.6347
+        ]
+      }
+    },
+    {
+      "nom": "Porta",
+      "code": "66146",
+      "codesPostaux": [
+        "66760"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.7935,
+          42.5212
+        ]
+      }
+    },
+    {
+      "nom": "Porté-Puymorens",
+      "code": "66147",
+      "codesPostaux": [
+        "66760"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.8381,
+          42.5546
+        ]
+      }
+    },
+    {
+      "nom": "Port-Vendres",
+      "code": "66148",
+      "codesPostaux": [
+        "66660"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.1048,
+          42.5034
+        ]
+      }
+    },
+    {
+      "nom": "Prades",
+      "code": "66149",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4276,
+          42.6107
+        ]
+      }
+    },
+    {
+      "nom": "Prats-de-Mollo-la-Preste",
+      "code": "66150",
+      "codesPostaux": [
+        "66230"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4229,
+          42.4174
+        ]
+      }
+    },
+    {
+      "nom": "Prats-de-Sournia",
+      "code": "66151",
+      "codesPostaux": [
+        "66730"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4535,
+          42.7399
+        ]
+      }
+    },
+    {
+      "nom": "Prugnanes",
+      "code": "66152",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.435,
+          42.8254
+        ]
+      }
+    },
+    {
+      "nom": "Prunet-et-Belpuig",
+      "code": "66153",
+      "codesPostaux": [
+        "66130"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6373,
+          42.5655
+        ]
+      }
+    },
+    {
+      "nom": "Puyvalador",
+      "code": "66154",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1097,
+          42.6488
+        ]
+      }
+    },
+    {
+      "nom": "Py",
+      "code": "66155",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3635,
+          42.4683
+        ]
+      }
+    },
+    {
+      "nom": "Rabouillet",
+      "code": "66156",
+      "codesPostaux": [
+        "66730"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3646,
+          42.7265
+        ]
+      }
+    },
+    {
+      "nom": "Railleu",
+      "code": "66157",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1619,
+          42.5923
+        ]
+      }
+    },
+    {
+      "nom": "Rasiguères",
+      "code": "66158",
+      "codesPostaux": [
+        "66720"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5979,
+          42.7732
+        ]
+      }
+    },
+    {
+      "nom": "Réal",
+      "code": "66159",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1488,
+          42.64
+        ]
+      }
+    },
+    {
+      "nom": "Reynès",
+      "code": "66160",
+      "codesPostaux": [
+        "66400"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6971,
+          42.466
+        ]
+      }
+    },
+    {
+      "nom": "Ria-Sirach",
+      "code": "66161",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3828,
+          42.6101
+        ]
+      }
+    },
+    {
+      "nom": "Rigarda",
+      "code": "66162",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5375,
+          42.6292
+        ]
+      }
+    },
+    {
+      "nom": "Rivesaltes",
+      "code": "66164",
+      "codesPostaux": [
+        "66600"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8769,
+          42.7761
+        ]
+      }
+    },
+    {
+      "nom": "Rodès",
+      "code": "66165",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5485,
+          42.6563
+        ]
+      }
+    },
+    {
+      "nom": "Sahorre",
+      "code": "66166",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3565,
+          42.5255
+        ]
+      }
+    },
+    {
+      "nom": "Saillagouse",
+      "code": "66167",
+      "codesPostaux": [
+        "66800"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0382,
+          42.4564
+        ]
+      }
+    },
+    {
+      "nom": "Saint-André",
+      "code": "66168",
+      "codesPostaux": [
+        "66690"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9794,
+          42.5541
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Arnac",
+      "code": "66169",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5343,
+          42.7737
+        ]
+      }
+    },
+    {
+      "nom": "Sainte-Colombe-de-la-Commanderie",
+      "code": "66170",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7421,
+          42.6161
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Cyprien",
+      "code": "66171",
+      "codesPostaux": [
+        "66750"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.0139,
+          42.6205
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Estève",
+      "code": "66172",
+      "codesPostaux": [
+        "66240"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8445,
+          42.7154
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Féliu-d'Amont",
+      "code": "66173",
+      "codesPostaux": [
+        "66170"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7166,
+          42.6752
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Féliu-d'Avall",
+      "code": "66174",
+      "codesPostaux": [
+        "66170"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7498,
+          42.6733
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Génis-des-Fontaines",
+      "code": "66175",
+      "codesPostaux": [
+        "66740"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9221,
+          42.5488
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Hippolyte",
+      "code": "66176",
+      "codesPostaux": [
+        "66510"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9754,
+          42.8104
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Jean-Lasseille",
+      "code": "66177",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8646,
+          42.5863
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Jean-Pla-de-Corts",
+      "code": "66178",
+      "codesPostaux": [
+        "66490"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7938,
+          42.5183
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Laurent-de-Cerdans",
+      "code": "66179",
+      "codesPostaux": [
+        "66260"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6222,
+          42.3944
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Laurent-de-la-Salanque",
+      "code": "66180",
+      "codesPostaux": [
+        "66250"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9993,
+          42.8073
+        ]
+      }
+    },
+    {
+      "nom": "Sainte-Léocadie",
+      "code": "66181",
+      "codesPostaux": [
+        "66800"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0057,
+          42.4298
+        ]
+      }
+    },
+    {
+      "nom": "Sainte-Marie-la-Mer",
+      "code": "66182",
+      "codesPostaux": [
+        "66470"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.0168,
+          42.7262
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Marsal",
+      "code": "66183",
+      "codesPostaux": [
+        "66110"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6182,
+          42.5256
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Martin-de-Fenouillet",
+      "code": "66184",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4777,
+          42.7848
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Michel-de-Llotes",
+      "code": "66185",
+      "codesPostaux": [
+        "66130"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6268,
+          42.6465
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Nazaire",
+      "code": "66186",
+      "codesPostaux": [
+        "66570"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9895,
+          42.6619
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Paul-de-Fenouillet",
+      "code": "66187",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5025,
+          42.8229
+        ]
+      }
+    },
+    {
+      "nom": "Saint-Pierre-dels-Forcats",
+      "code": "66188",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.114,
+          42.4778
+        ]
+      }
+    },
+    {
+      "nom": "Saleilles",
+      "code": "66189",
+      "codesPostaux": [
+        "66280"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.947,
+          42.6553
+        ]
+      }
+    },
+    {
+      "nom": "Salses-le-Château",
+      "code": "66190",
+      "codesPostaux": [
+        "66600"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.9134,
+          42.8359
+        ]
+      }
+    },
+    {
+      "nom": "Sansa",
+      "code": "66191",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1788,
+          42.6189
+        ]
+      }
+    },
+    {
+      "nom": "Sauto",
+      "code": "66192",
+      "codesPostaux": [
+        "66210"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.1461,
+          42.5166
+        ]
+      }
+    },
+    {
+      "nom": "Serdinya",
+      "code": "66193",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.324,
+          42.5736
+        ]
+      }
+    },
+    {
+      "nom": "Serralongue",
+      "code": "66194",
+      "codesPostaux": [
+        "66230"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5559,
+          42.3846
+        ]
+      }
+    },
+    {
+      "nom": "Le Soler",
+      "code": "66195",
+      "codesPostaux": [
+        "66270"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7999,
+          42.6756
+        ]
+      }
+    },
+    {
+      "nom": "Sorède",
+      "code": "66196",
+      "codesPostaux": [
+        "66690"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.988,
+          42.5083
+        ]
+      }
+    },
+    {
+      "nom": "Souanyas",
+      "code": "66197",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2826,
+          42.5493
+        ]
+      }
+    },
+    {
+      "nom": "Sournia",
+      "code": "66198",
+      "codesPostaux": [
+        "66730"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4171,
+          42.7138
+        ]
+      }
+    },
+    {
+      "nom": "Taillet",
+      "code": "66199",
+      "codesPostaux": [
+        "66400"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6808,
+          42.5191
+        ]
+      }
+    },
+    {
+      "nom": "Tarerach",
+      "code": "66201",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5081,
+          42.6816
+        ]
+      }
+    },
+    {
+      "nom": "Targasonne",
+      "code": "66202",
+      "codesPostaux": [
+        "66120"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.9877,
+          42.5014
+        ]
+      }
+    },
+    {
+      "nom": "Taulis",
+      "code": "66203",
+      "codesPostaux": [
+        "66110"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.6145,
+          42.5149
+        ]
+      }
+    },
+    {
+      "nom": "Taurinya",
+      "code": "66204",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4408,
+          42.555
+        ]
+      }
+    },
+    {
+      "nom": "Tautavel",
+      "code": "66205",
+      "codesPostaux": [
+        "66720"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7161,
+          42.8163
+        ]
+      }
+    },
+    {
+      "nom": "Le Tech",
+      "code": "66206",
+      "codesPostaux": [
+        "66230"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5154,
+          42.4439
+        ]
+      }
+    },
+    {
+      "nom": "Terrats",
+      "code": "66207",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7584,
+          42.6046
+        ]
+      }
+    },
+    {
+      "nom": "Théza",
+      "code": "66208",
+      "codesPostaux": [
+        "66200"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.947,
+          42.6403
+        ]
+      }
+    },
+    {
+      "nom": "Thuès-Entre-Valls",
+      "code": "66209",
+      "codesPostaux": [
+        "66360"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2317,
+          42.5006
+        ]
+      }
+    },
+    {
+      "nom": "Thuir",
+      "code": "66210",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7618,
+          42.6384
+        ]
+      }
+    },
+    {
+      "nom": "Tordères",
+      "code": "66211",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7619,
+          42.5653
+        ]
+      }
+    },
+    {
+      "nom": "Torreilles",
+      "code": "66212",
+      "codesPostaux": [
+        "66440"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          3.0059,
+          42.7571
+        ]
+      }
+    },
+    {
+      "nom": "Toulouges",
+      "code": "66213",
+      "codesPostaux": [
+        "66350"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8234,
+          42.6723
+        ]
+      }
+    },
+    {
+      "nom": "Tresserre",
+      "code": "66214",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.842,
+          42.5559
+        ]
+      }
+    },
+    {
+      "nom": "Trévillach",
+      "code": "66215",
+      "codesPostaux": [
+        "66130"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5105,
+          42.7091
+        ]
+      }
+    },
+    {
+      "nom": "Trilla",
+      "code": "66216",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5229,
+          42.7369
+        ]
+      }
+    },
+    {
+      "nom": "Trouillas",
+      "code": "66217",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8235,
+          42.6055
+        ]
+      }
+    },
+    {
+      "nom": "Ur",
+      "code": "66218",
+      "codesPostaux": [
+        "66760"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          1.9382,
+          42.4594
+        ]
+      }
+    },
+    {
+      "nom": "Urbanya",
+      "code": "66219",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.2964,
+          42.6429
+        ]
+      }
+    },
+    {
+      "nom": "Valcebollère",
+      "code": "66220",
+      "codesPostaux": [
+        "66340"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.0472,
+          42.382
+        ]
+      }
+    },
+    {
+      "nom": "Valmanya",
+      "code": "66221",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5089,
+          42.5251
+        ]
+      }
+    },
+    {
+      "nom": "Vernet-les-Bains",
+      "code": "66222",
+      "codesPostaux": [
+        "66820"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4152,
+          42.5363
+        ]
+      }
+    },
+    {
+      "nom": "Villefranche-de-Conflent",
+      "code": "66223",
+      "codesPostaux": [
+        "66500"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3575,
+          42.5955
+        ]
+      }
+    },
+    {
+      "nom": "Villelongue-de-la-Salanque",
+      "code": "66224",
+      "codesPostaux": [
+        "66410"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.977,
+          42.7261
+        ]
+      }
+    },
+    {
+      "nom": "Villelongue-dels-Monts",
+      "code": "66225",
+      "codesPostaux": [
+        "66740"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.8979,
+          42.5238
+        ]
+      }
+    },
+    {
+      "nom": "Villemolaque",
+      "code": "66226",
+      "codesPostaux": [
+        "66300"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.848,
+          42.5976
+        ]
+      }
+    },
+    {
+      "nom": "Villeneuve-de-la-Raho",
+      "code": "66227",
+      "codesPostaux": [
+        "66180"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.909,
+          42.6402
+        ]
+      }
+    },
+    {
+      "nom": "Villeneuve-la-Rivière",
+      "code": "66228",
+      "codesPostaux": [
+        "66610"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7964,
+          42.7046
+        ]
+      }
+    },
+    {
+      "nom": "Vinça",
+      "code": "66230",
+      "codesPostaux": [
+        "66320"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.5225,
+          42.6431
+        ]
+      }
+    },
+    {
+      "nom": "Vingrau",
+      "code": "66231",
+      "codesPostaux": [
+        "66600"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.7904,
+          42.8588
+        ]
+      }
+    },
+    {
+      "nom": "Vira",
+      "code": "66232",
+      "codesPostaux": [
+        "66220"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.3899,
+          42.7653
+        ]
+      }
+    },
+    {
+      "nom": "Vivès",
+      "code": "66233",
+      "codesPostaux": [
+        "66490"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.766,
+          42.5303
+        ]
+      }
+    },
+    {
+      "nom": "Le Vivier",
+      "code": "66234",
+      "codesPostaux": [
+        "66730"
+      ],
+      "centre": {
+        "type": "Point",
+        "coordinates": [
+          2.4423,
+          42.7637
+        ]
+      }
+    }
+  ]
+}
