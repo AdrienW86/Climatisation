@@ -31,7 +31,7 @@ test('routes principales, un H1 et absence d’erreurs JavaScript', async ({ pag
   }
   expect(errors).toEqual([]);
 });
-test('responsive, fallback sans vidéo et ressources locales accessibles', async ({ page }) => {
+test('responsive, vidéo du hero et ressources locales accessibles', async ({ page }) => {
   const failures: string[] = [];
   page.on('response', (r) => {
     if (r.status() >= 400) failures.push(r.url());
@@ -39,8 +39,12 @@ test('responsive, fallback sans vidéo et ressources locales accessibles', async
   for (const width of [320, 390, 768, 1280, 1920]) {
     await page.setViewportSize({ width, height: 950 });
     await page.goto('/');
-    await expect(page.getByRole('img', { name: /Création abstraite/ })).toBeVisible();
-    expect(await page.locator('video').count()).toBe(0);
+    await expect(page.locator('.hero-visual video')).toBeVisible();
+    await expect(page.locator('video')).toHaveAttribute(
+      'poster',
+      '/images/climatisation-hero-poster.webp',
+    );
+    if (width < 768) await expect(page.locator('video source')).toHaveCount(0);
     expect(
       await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth),
     ).toBeTruthy();
@@ -88,7 +92,7 @@ test('robots et réduction des mouvements', async ({ page, request }) => {
   await page.goto('/');
   expect(
     await page
-      .locator('.sculpture-ring')
+      .locator('.hero-visual')
       .first()
       .evaluate((el) => getComputedStyle(el).animationName),
   ).toBe('none');

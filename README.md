@@ -52,7 +52,9 @@ Les autres communes restent en 404. Ajouter un contenu local à `localEditorial`
 
 ## Ajouter la vidéo
 
-Déposer les fichiers réels dans :
+La vidéo fournie est intégrée dans le hero : `public/fraicheur-a-la-demande_1080p_web.mp4` (1920 × 1080, environ 30 secondes). Son nom est conservé. Le poster WebP provient d’une image de cette vidéo. Les chemins, le texte alternatif et la description sont centralisés dans `src/config/site.config.ts`.
+
+Pour remplacer les médias, modifier cette configuration ou utiliser les chemins initialement prévus :
 
 ```text
 public/videos/climatisation-hero.mp4
@@ -64,7 +66,9 @@ Créer `public/images` si nécessaire. Les chemins sont configurables. Relancer 
 
 Préférer une vidéo courte et compressée, sans piste audio informative. Le contenu essentiel reste en HTML. Fournir un poster optimisé et un texte `description` fidèle à la présentation dans le composant `HeroProductVideo` ; si la vidéo contient de nouvelles informations, les reporter dans ce texte accessible. `posterAlt`, `autoPlay` et `loop` sont configurables.
 
-Pas de téléchargement automatique sur mobile, en économie de données ou en réduction des mouvements. Un bouton permet la lecture volontaire. Pause hors écran et lorsque l’onglet est masqué. Le visuel abstrait reste visible tant qu’aucune image vidéo n’est disponible. L’acceptation des fichiers réels, leurs codecs et leur poids devront être vérifiés à leur réception.
+Pas de téléchargement automatique sur mobile, en économie de données ou en réduction des mouvements. Un bouton sous l’image permet la lecture volontaire et la pause/reprise sans retour au début. Pause hors écran et lorsque l’onglet est masqué. Le cadrage 16:9 conserve l’intégralité du motion design ; les textes décoratifs du fallback ne recouvrent pas la vidéo. La lecture réelle et le comportement mobile ont été vérifiés dans Chrome. La source fournie pèse environ 22,5 Mo ; elle reste chargée à la demande sur mobile.
+
+Pour reproduire le contrôle sur un serveur local : `node scripts/verify-hero-video.mjs`. Le serveur par défaut est l’aperçu existant sur le port 3001 ; `VIDEO_TEST_ORIGIN` permet de choisir une autre origine.
 
 ## Ouvrir les demandes de devis
 

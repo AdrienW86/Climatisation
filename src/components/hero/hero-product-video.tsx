@@ -42,7 +42,11 @@ export function HeroProductVideo({
   const [failed, setFailed] = useState(false);
   const [hasFrames, setHasFrames] = useState(false);
   const hasVideo = Boolean((mp4 || webm) && !failed);
-  const active = hasVideo && (allowed || manual) && !paused;
+  const requested = hasVideo && (allowed || manual);
+  const active = requested && !paused;
+  useEffect(() => {
+    if (requested) ref.current?.load();
+  }, [requested, mp4, webm]);
   useEffect(() => {
     const motion = matchMedia('(prefers-reduced-motion: reduce)');
     const mobile = matchMedia('(max-width: 767px)');
@@ -68,7 +72,6 @@ export function HeroProductVideo({
       video.pause();
       return;
     }
-    video.load();
     let visible = false;
     const play = () => {
       if (visible && !document.hidden) void video.play().catch(() => setPlaying(false));
@@ -89,6 +92,16 @@ export function HeroProductVideo({
       video.pause();
     };
   }, [active, mp4, webm]);
+  function toggleVideo() {
+    if (playing) {
+      setPaused(true);
+      ref.current?.pause();
+    } else {
+      setPaused(false);
+      setManual(true);
+      if (active) void ref.current?.play().catch(() => setPlaying(false));
+    }
+  }
   return (
     <div className="hero-visual">
       <div className="visual-top">
@@ -97,7 +110,7 @@ export function HeroProductVideo({
         </span>
         <Wind size={20} />
       </div>
-      <div className="visual-art">
+      <div className={'visual-art' + (hasVideo ? ' visual-art-video' : '')}>
         {(!hasVideo || !hasFrames) && !poster && <AirSculpture />}
         {hasVideo ? (
           <>
@@ -115,31 +128,13 @@ export function HeroProductVideo({
               onError={() => setFailed(true)}
               aria-label={posterAlt}
             >
-              {active && (
+              {requested && (
                 <>
                   {webm && <source src={webm} type="video/webm" />}
                   {mp4 && <source src={mp4} type="video/mp4" />}
                 </>
               )}
             </video>
-            <button
-              type="button"
-              className="video-control"
-              onClick={() => {
-                if (playing) {
-                  setPaused(true);
-                  ref.current?.pause();
-                } else {
-                  setPaused(false);
-                  setManual(true);
-                  // Relancer directement si le navigateur a refusé l’autoplay.
-                  if (active) void ref.current?.play().catch(() => setPlaying(false));
-                }
-              }}
-            >
-              {playing ? <Pause size={16} /> : <Play size={16} />}{' '}
-              {playing ? 'Mettre en pause' : 'Lire la présentation'}
-            </button>
           </>
         ) : poster ? (
           <Image
@@ -150,14 +145,16 @@ export function HeroProductVideo({
             sizes="(max-width: 767px) 100vw, 50vw"
           />
         ) : null}
-        <div className="art-caption">
-          <span>
-            UN SOUFFLE
-            <br />
-            DE FRAÎCHEUR.
-          </span>
-          <ArrowDown size={26} strokeWidth={1} />
-        </div>
+        {!hasVideo && !poster && (
+          <div className="art-caption">
+            <span>
+              UN SOUFFLE
+              <br />
+              DE FRAÎCHEUR.
+            </span>
+            <ArrowDown size={26} strokeWidth={1} />
+          </div>
+        )}
       </div>
       <div className="visual-bottom">
         <span>
@@ -165,9 +162,16 @@ export function HeroProductVideo({
           <br />
           <strong>La différence aussi.</strong>
         </span>
-        <span className="visual-tag">
-          L’ESPRIT TRANQUILLE <span>↗</span>
-        </span>
+        {hasVideo ? (
+          <button type="button" className="video-control" onClick={toggleVideo}>
+            {playing ? <Pause size={16} /> : <Play size={16} />}{' '}
+            {playing ? 'Mettre en pause' : 'Lire la présentation'}
+          </button>
+        ) : (
+          <span className="visual-tag">
+            L’ESPRIT TRANQUILLE <span>↗</span>
+          </span>
+        )}
       </div>
       {hasVideo ? (
         <details className="video-description">

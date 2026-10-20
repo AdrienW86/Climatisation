@@ -31,6 +31,17 @@
 .video-unloaded {
   opacity: 0;
 }
+.visual-art.visual-art-video {
+  height: auto;
+  aspect-ratio: 16/9;
+  background: #07141f;
+}
+.visual-bottom .video-control {
+  position: static;
+  flex-shrink: 0;
+  font-size: 10px;
+  min-height: 42px;
+}
 .video-description {
   padding: 0 25px 20px;
   font-size: 11px;

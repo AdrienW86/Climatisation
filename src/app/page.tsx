@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { HeroProductVideo } from '@/components/hero/hero-product-video';
 import { heroMedia } from '@/lib/media';
+import { site } from '@/config/site.config';
 import { CTA, FAQ } from '@/components/ui';
 import { pageMetadata } from '@/lib/seo/metadata';
 import { locations } from '@/data/locations';
@@ -76,7 +77,8 @@ export default function HomePage() {
         </div>
         <HeroProductVideo
           {...heroMedia()}
-          posterAlt="Présentation de la solution de climatisation et de ses usages"
+          posterAlt={site.video.posterAlt}
+          description={site.video.description}
         />
       </section>
       <div className="values-strip">
