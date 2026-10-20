@@ -15,28 +15,29 @@ try {
       if (r.url().includes('.mp4')) requests.push(r.url());
     });
     await page.goto(origin);
-    await page
-      .getByRole('button', { name: mobile ? 'Lire la présentation' : 'Mettre en pause' })
-      .waitFor();
-    const before = await page
-      .locator('video')
-      .evaluate((v) => ({
-        width: v.videoWidth,
-        height: v.videoHeight,
-        paused: v.paused,
-        time: v.currentTime,
-        poster: v.poster,
-      }));
-    if (mobile) {
-      assert.equal(requests.length, 0);
-      assert.equal(before.paused, true);
-      assert.ok(before.poster);
-      await page.getByRole('button', { name: 'Lire la présentation' }).click();
-    }
+    await page.getByRole('button', { name: 'Mettre en pause' }).waitFor();
+    const before = await page.locator('video').evaluate((v) => ({
+      width: v.videoWidth,
+      height: v.videoHeight,
+      paused: v.paused,
+      time: v.currentTime,
+      poster: v.poster,
+    }));
+    assert.ok(requests.length > 0);
+    assert.equal(before.paused, false);
+    assert.ok(before.poster);
+    assert.equal(await page.locator('video').evaluate((v) => v.autoplay && v.loop), true);
+    assert.equal(await page.locator('video').evaluate((v) => v.muted), true);
+    await page.getByRole('button', { name: 'Activer le son', exact: true }).click();
+    assert.equal(await page.locator('video').evaluate((v) => v.muted), false);
+    await page.getByRole('button', { name: 'Couper le son', exact: true }).click();
+    assert.equal(await page.locator('video').evaluate((v) => v.muted), true);
     await page.waitForFunction(() => {
       const v = document.querySelector('video');
       return v && !v.paused && v.currentTime > 0.3;
     });
+    await page.getByRole('button', { name: 'Activer le son', exact: true }).click();
+    assert.equal(await page.locator('video').evaluate((v) => v.muted), false);
     await page.getByRole('button', { name: 'Mettre en pause' }).click();
     const paused = await page
       .locator('video')
@@ -47,12 +48,22 @@ try {
       const v = document.querySelector('video');
       return v && !v.paused && v.currentTime > previous;
     }, paused.time);
+    assert.equal(await page.locator('video').evaluate((v) => v.muted), false);
+    await page.getByRole('button', { name: 'Couper le son', exact: true }).click();
+    assert.equal(await page.locator('video').evaluate((v) => v.muted), true);
     const dimensions = await page
       .locator('video')
       .evaluate((v) => ({ width: v.videoWidth, height: v.videoHeight, duration: v.duration }));
     assert.equal(dimensions.width, 1920);
     assert.equal(dimensions.height, 1080);
     assert.ok(dimensions.duration > 29);
+    await page.locator('video').evaluate((v) => {
+      v.currentTime = v.duration - 0.25;
+    });
+    await page.waitForFunction(() => {
+      const v = document.querySelector('video');
+      return v && !v.paused && v.currentTime < 1;
+    });
     assert.equal(
       await page.evaluate(() => document.documentElement.scrollWidth > innerWidth),
       false,
@@ -64,8 +75,10 @@ try {
     results.push({
       mobile,
       video: dimensions,
-      manualOnMobile: true,
+      automaticPlayback: true,
+      loopRestart: true,
       pauseResume: true,
+      soundToggle: true,
       noOverflow: true,
     });
     await context.close();

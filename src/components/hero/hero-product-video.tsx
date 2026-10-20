@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
-import { ArrowDown, Pause, Play, Wind } from 'lucide-react';
+import { ArrowDown, Pause, Play, Volume2, VolumeX, Wind } from 'lucide-react';
 type Props = {
   mp4?: string;
   webm?: string;
@@ -39,6 +39,7 @@ export function HeroProductVideo({
   const [manual, setManual] = useState(false);
   const [paused, setPaused] = useState(false);
   const [playing, setPlaying] = useState(false);
+  const [muted, setMuted] = useState(true);
   const [failed, setFailed] = useState(false);
   const [hasFrames, setHasFrames] = useState(false);
   const hasVideo = Boolean((mp4 || webm) && !failed);
@@ -49,20 +50,16 @@ export function HeroProductVideo({
   }, [requested, mp4, webm]);
   useEffect(() => {
     const motion = matchMedia('(prefers-reduced-motion: reduce)');
-    const mobile = matchMedia('(max-width: 767px)');
     const update = () =>
       setAllowed(
         autoPlay &&
           !motion.matches &&
-          !mobile.matches &&
           !(navigator as Navigator & { connection?: { saveData?: boolean } }).connection?.saveData,
       );
     update();
     motion.addEventListener('change', update);
-    mobile.addEventListener('change', update);
     return () => {
       motion.removeEventListener('change', update);
-      mobile.removeEventListener('change', update);
     };
   }, [autoPlay]);
   useEffect(() => {
@@ -102,6 +99,14 @@ export function HeroProductVideo({
       if (active) void ref.current?.play().catch(() => setPlaying(false));
     }
   }
+  function toggleSound() {
+    const video = ref.current;
+    if (!video) return;
+    const nextMuted = !muted;
+    video.muted = nextMuted;
+    if (!nextMuted && video.volume === 0) video.volume = 1;
+    setMuted(nextMuted);
+  }
   return (
     <div className="hero-visual">
       <div className="visual-top">
@@ -116,7 +121,8 @@ export function HeroProductVideo({
           <>
             <video
               ref={ref}
-              muted
+              muted={muted}
+              autoPlay={active}
               playsInline
               loop={loop}
               poster={poster}
@@ -125,6 +131,9 @@ export function HeroProductVideo({
               onLoadedData={() => setHasFrames(true)}
               onPlay={() => setPlaying(true)}
               onPause={() => setPlaying(false)}
+              onVolumeChange={(event) =>
+                setMuted(event.currentTarget.muted || event.currentTarget.volume === 0)
+              }
               onError={() => setFailed(true)}
               aria-label={posterAlt}
             >
@@ -163,10 +172,25 @@ export function HeroProductVideo({
           <strong>La différence aussi.</strong>
         </span>
         {hasVideo ? (
-          <button type="button" className="video-control" onClick={toggleVideo}>
-            {playing ? <Pause size={16} /> : <Play size={16} />}{' '}
-            {playing ? 'Mettre en pause' : 'Lire la présentation'}
-          </button>
+          <div className="video-controls" role="group" aria-label="Commandes de la vidéo">
+            <button type="button" className="video-control" onClick={toggleVideo}>
+              {playing ? <Pause size={16} /> : <Play size={16} />}{' '}
+              {playing ? 'Mettre en pause' : 'Lire la présentation'}
+            </button>
+            <button
+              type="button"
+              className="video-control video-sound-control"
+              onClick={toggleSound}
+              aria-label={muted ? 'Activer le son' : 'Couper le son'}
+              title={muted ? 'Activer le son' : 'Couper le son'}
+            >
+              {muted ? (
+                <VolumeX size={18} aria-hidden="true" />
+              ) : (
+                <Volume2 size={18} aria-hidden="true" />
+              )}
+            </button>
+          </div>
         ) : (
           <span className="visual-tag">
             L’ESPRIT TRANQUILLE <span>↗</span>

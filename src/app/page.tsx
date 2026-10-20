@@ -77,6 +77,8 @@ export default function HomePage() {
         </div>
         <HeroProductVideo
           {...heroMedia()}
+          autoPlay
+          loop
           posterAlt={site.video.posterAlt}
           description={site.video.description}
         />

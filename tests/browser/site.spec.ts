@@ -44,7 +44,8 @@ test('responsive, vidéo du hero et ressources locales accessibles', async ({ pa
       'poster',
       '/images/climatisation-hero-poster.webp',
     );
-    if (width < 768) await expect(page.locator('video source')).toHaveCount(0);
+    await expect(page.locator('video')).toHaveAttribute('loop', '');
+    await expect(page.locator('video source')).toHaveCount(1);
     expect(
       await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth),
     ).toBeTruthy();
