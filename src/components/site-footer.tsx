@@ -30,6 +30,10 @@ export function SiteFooter() {
             </Link>
           </div>
         </div>
+        <div className="footer-affiliations" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem 1.5rem', padding: '1.25rem 0', fontSize: '0.875rem' }}>
+          <span>Membre du réseau <a href="https://solution-habitation.fr" target="_blank" rel="noopener noreferrer">Solution Habitation</a></span>
+          <span>Développé par <a href="https://code-v.fr" target="_blank" rel="noopener noreferrer">CODE-V</a></span>
+        </div>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} Location Climatisation</span>
           <div>
